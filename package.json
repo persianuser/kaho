@@ -1,0 +1,23 @@
+{
+  "name": "kaho-rp",
+  "version": "1.0.0",
+  "description": "style for project with css",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "build" : "minify --output kaho.min.css kaho.css",
+	"watch" : "npm run build -- --watch"
+  },
+  "keywords": [
+    "style",
+    "css",
+    "html"
+  ],
+  "author": "Reza Pasalar",
+  "license": "MIT",
+  "dependencies": {
+    "minifier": "^0.8.1"
+  }
+}
